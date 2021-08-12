@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Music-Similarity-Search", "Music-Similarity-Search\Music-Similarity-Search.vcxproj", "{51E61220-309D-478C-85BE-E088D4A96161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Performance logging|x64 = Performance logging|x64
+		Performance logging|x86 = Performance logging|x86
+		Performance|x64 = Performance|x64
+		Performance|x86 = Performance|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseClean|x64 = ReleaseClean|x64
+		ReleaseClean|x86 = ReleaseClean|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E61220-309D-478C-85BE-E088D4A96161}.Debug|x64.ActiveCfg = Debug|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Debug|x64.Build.0 = Debug|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Debug|x86.ActiveCfg = Debug|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Debug|x86.Build.0 = Debug|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance logging|x64.ActiveCfg = Performance logging|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance logging|x64.Build.0 = Performance logging|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance logging|x86.ActiveCfg = Performance logging|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance logging|x86.Build.0 = Performance logging|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance|x64.ActiveCfg = Performance|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance|x64.Build.0 = Performance|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance|x86.ActiveCfg = Performance|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Performance|x86.Build.0 = Performance|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Release|x64.ActiveCfg = Release|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Release|x64.Build.0 = Release|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.Release|x86.ActiveCfg = Release|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.Release|x86.Build.0 = Release|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.ReleaseClean|x64.ActiveCfg = ReleaseClean|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.ReleaseClean|x64.Build.0 = ReleaseClean|x64
+		{51E61220-309D-478C-85BE-E088D4A96161}.ReleaseClean|x86.ActiveCfg = ReleaseClean|Win32
+		{51E61220-309D-478C-85BE-E088D4A96161}.ReleaseClean|x86.Build.0 = ReleaseClean|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A37AA970-8982-46FE-A374-C011BEC8B039}
+	EndGlobalSection
+EndGlobal

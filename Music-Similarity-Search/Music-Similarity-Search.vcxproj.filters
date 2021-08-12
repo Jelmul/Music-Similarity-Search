@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{ef283f4d-662d-4954-85f1-e0dbbf00c728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{72d24f04-50cd-4d71-af72-59f034b7ff01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BLAST">
+      <UniqueIdentifier>{93e8cf3b-3b03-4204-a6b3-f5a12ac94d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BLAST">
+      <UniqueIdentifier>{10e5802e-f614-4a45-bf78-4132ada9bf1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ED">
+      <UniqueIdentifier>{ff9a2df1-f9a6-4563-9271-fa5dccf0b80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ED">
+      <UniqueIdentifier>{bffd9775-d525-4671-bf0f-f833438a67ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GA">
+      <UniqueIdentifier>{deedc45e-fb6c-4f89-9bf1-0bca815c8735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GA">
+      <UniqueIdentifier>{73d2d206-25ee-4ebf-b360-5428addbf82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LA">
+      <UniqueIdentifier>{a4bc2d3f-98e9-4abf-8d72-ae729b6f1c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LA">
+      <UniqueIdentifier>{a980949d-2549-41fe-adc2-50498e7da73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SSMAW">
+      <UniqueIdentifier>{f55c67f4-e0c0-45d6-a6e8-68ad03417423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SSMAW">
+      <UniqueIdentifier>{7ee6f86e-e4a1-4ff9-98bd-5fc0832ad976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PassJoin">
+      <UniqueIdentifier>{33a1ae0f-95f6-4209-9932-dfa4307a0c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PassJoin">
+      <UniqueIdentifier>{40730c5f-ee58-4928-b0f4-4f1f27161655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PIVOTAL">
+      <UniqueIdentifier>{d5e85579-fec6-401c-a6af-37fd7265f5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PIVOTAL">
+      <UniqueIdentifier>{ee4ea0a9-5bac-4755-aad8-38425cd769ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BLAST\BLAST.cpp">
+      <Filter>Source Files\BLAST</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAST\karlin.c">
+      <Filter>Source Files\BLAST</Filter>
+    </ClCompile>
+    <ClCompile Include="General\Database.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="General\Tools.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Music-Similarity-Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\ED.cpp">
+      <Filter>Source Files\ED</Filter>
+    </ClCompile>
+    <ClCompile Include="GA\GA.cpp">
+      <Filter>Source Files\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="LA\LA.cpp">
+      <Filter>Source Files\LA</Filter>
+    </ClCompile>
+    <ClCompile Include="SSMAW\SSMAW.cpp">
+      <Filter>Source Files\SSMAW</Filter>
+    </ClCompile>
+    <ClCompile Include="General\Scoring.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SSMAW\Trie.cpp">
+      <Filter>Source Files\SSMAW</Filter>
+    </ClCompile>
+    <ClCompile Include="PassJoin\PassJoin.cpp">
+      <Filter>Source Files\PassJoin</Filter>
+    </ClCompile>
+    <ClCompile Include="General\SimilaritySearch.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="PIVOTAL\PivotalSearch.cpp">
+      <Filter>Source Files\PIVOTAL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BLAST\karlin.h">
+      <Filter>Header Files\BLAST</Filter>
+    </ClInclude>
+    <ClInclude Include="BLAST\BLAST.h">
+      <Filter>Header Files\BLAST</Filter>
+    </ClInclude>
+    <ClInclude Include="General\Database.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\Tools.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\SimilaritySearch.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\Result.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\ED.h">
+      <Filter>Header Files\ED</Filter>
+    </ClInclude>
+    <ClInclude Include="GA\GA.h">
+      <Filter>Header Files\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="LA\LA.h">
+      <Filter>Header Files\LA</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMAW\SSMAW.h">
+      <Filter>Header Files\SSMAW</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMAW\Stack.h">
+      <Filter>Header Files\SSMAW</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMAW\Suffix.h">
+      <Filter>Header Files\SSMAW</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMAW\Trie.h">
+      <Filter>Header Files\SSMAW</Filter>
+    </ClInclude>
+    <ClInclude Include="General\Scoring.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="PassJoin\PassJoin.h">
+      <Filter>Header Files\PassJoin</Filter>
+    </ClInclude>
+    <ClInclude Include="General\Entry.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="PIVOTAL\PivotalSearch.h">
+      <Filter>Header Files\PIVOTAL</Filter>
+    </ClInclude>
+    <ClInclude Include="PIVOTAL\Qgram.h">
+      <Filter>Header Files\PIVOTAL</Filter>
+    </ClInclude>
+    <ClInclude Include="PIVOTAL\IndexEntry.h">
+      <Filter>Header Files\PIVOTAL</Filter>
+    </ClInclude>
+    <ClInclude Include="BLAST\HSW.h">
+      <Filter>Header Files\BLAST</Filter>
+    </ClInclude>
+    <ClInclude Include="Music-Similarity-Search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

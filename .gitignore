@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#Added
+*.ipch
+*.suo
+*.tlog
+*.log
+*.pdb
+*.db
+*.opendb
+*.ipdb
+*.iobj
+*.ilk
+.vs/Music-Similarity-Search/v16/Browse.VC.db-wal
+.vs/Music-Similarity-Search/v16/Browse.VC.db-shm
+Music-Similarity-Search/x64/Release/Music-Similarity-Search.exe.recipe
+*.recipe
+*.csv
+*.xlsx
