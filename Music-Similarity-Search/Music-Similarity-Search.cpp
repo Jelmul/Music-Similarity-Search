@@ -121,7 +121,7 @@ void QueryRetrieval(SimilaritySearch* ss, std::string algorithm, std::vector<std
 		std::clock_t start = std::clock();
 		int nrOfQueries = list.size();
 		std::ofstream file;
-		file.open("Retrieval Performance results/" + algorithm + " " + task + ".csv");
+		file.open("Retrieval performance " + algorithm + " " + task + ".csv");
 		if (file.is_open())
 		{
 			for (int j = 0; j < nrOfQueries; j++)
@@ -251,7 +251,7 @@ void ScalabilityTest(SimilaritySearch* ss, std::vector<GroundTruth>& queryList, 
 void Scalability(std::string algorithmBools, std::string queryFile)
 {
 	std::ofstream file;
-	file.open("Scalability results/ScalabilityTime " + queryFile + ".csv");
+	file.open("Scalability.csv");
 	if (file.is_open())
 	{
 		std::clock_t startToFinish = std::clock();
@@ -269,7 +269,7 @@ void Scalability(std::string algorithmBools, std::string queryFile)
 		for (int i = 0; i < 10; i++)
 		{
 			int nr = i + 1;
-			Database* database = new Database("emo_" + std::to_string(nr) + ".txt");
+			Database* database = new Database("emo_" + std::to_string(nr) + "a.txt");
 			std::string line = std::to_string(database->db.size()) + ";";
 
 			if (getBool(algorithmBools[0]))
