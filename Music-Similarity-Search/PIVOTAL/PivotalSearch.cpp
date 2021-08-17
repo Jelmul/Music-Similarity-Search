@@ -167,7 +167,7 @@ std::vector<Result> PivotalSearch::SearchSequence(std::string query)
 #pragma region Initialization
 	std::clock_t startC = std::clock();
 	std::vector <Result> result;
-	std::vector<bool> checked = std::vector(db->db.size(), false);
+	std::vector<bool> checked = std::vector<bool>(db->db.size(), false);
 	double duration = (std::clock() - startC) / (CLOCKS_PER_SEC / 1000);
 	std::cout << duration << ";"; //Initialization
 #pragma endregion

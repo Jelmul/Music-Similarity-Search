@@ -169,7 +169,7 @@ std::vector<Result> PassJoin::SearchSequence(std::string query)
 	std::clock_t startC = std::clock();
 	//Variables
 	std::vector <Result> result;
-	std::vector<bool> checked = std::vector(db->db.size(), false); //Inserted entries
+	std::vector<bool> checked = std::vector<bool>(db->db.size(), false); //Inserted entries
 	int minL = (*index.begin()).first; //Minimum length
 	int maxL = (*index.rbegin()).first; //Maximum length
 	//Pre calculate thresholds for pigeonring
